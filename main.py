@@ -23,7 +23,7 @@ app = Flask(__name__)
 # Initial bot by Telegram access token
 bot = telegram.Bot(token=(config['TELEGRAM']['ACCESS_TOKEN']))
 
-welcome_message = 'Hello~ 本 Bot 是用 http://bit.ly/2KxJF1F 開源程式碼所完成\n\n' \
+welcome_message = 'Hello~ 本 Bot 是用開源程式碼所完成\n\n' \
                   '您可以問我\n' \
                   '天氣，例如：「台北天氣如何」\n' \
                   '百科，例如：「川普是誰」\n' \
